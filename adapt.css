@@ -65,6 +65,11 @@
     height: 70px;
   }
 }
+@media screen and (max-width:465px) {
+  .burger_menu{
+    margin: 0px 0px 0px 190px;
+  }
+}
 @media screen and (max-width: 446px) {
   .burger_menu {
     margin-left: 180px;
@@ -74,7 +79,12 @@
     display: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width:376px) {
+  .burger_menu{
+    margin: 0px 0px 0px 140px;
+  }
+}
+@media screen and (max-width: 325px) {
   .burger_menu {
     margin-left: 100px;
   }
